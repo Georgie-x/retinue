@@ -1,21 +1,25 @@
 import React, { useState } from "react"
 
-
-function TotalPoints() {
-
-  const [pointsValue, setPointsValue] = useState(500)
+function TotalPoints({selectedPoints, setSelectedPoints}) {
 
 
-  const handleChange = (event) => {
-		setPointsValue(event.target.value)
+	const handleChange = (e) => {
+		setSelectedPoints(e.target.value)
 	}
 
-    return(
-      <>
-      <label htmlFor="totalPoints">Choose total game points: </label>
-      <input type="number" id="totalPoints" min="500" max="1000" value={pointsValue} onChange={handleChange}></input>
-      </>
-    )
-  }
-  
-  export default TotalPoints
+	return (
+		<>
+			<label htmlFor='totalPoints'>Total Points: </label>
+			<input
+				type='number'
+				id='totalPoints'
+				min='500'
+				max='1000'
+        value={selectedPoints}
+				onChange={handleChange}
+			></input>
+		</>
+	)
+}
+
+export default TotalPoints

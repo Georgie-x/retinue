@@ -1,6 +1,6 @@
-import React, { useState } from "react"
+import { useState } from "react"
 
-function Faction() {
+function Faction({selectedFaction, setSelectedFaction}) {
 	const factionOptions = [
 		"Orc Tribes",
 		"The Elves",
@@ -9,21 +9,19 @@ function Faction() {
 		"Kaelanites - The Dead",
 	]
 
-	const [selectedFaction, setSelectedFaction] = useState("")
-
-	const handleChange = (event) => {
-		setSelectedFaction(event.target.value)
+	const handleChange = (e) => {
+		setSelectedFaction(e.target.value)
 	}
 
 	return (
 		<div>
-			<label htmlFor='factionSelect'>Choose your faction: </label>
+			<label htmlFor='factionSelect'>Faction: </label>
 			<select id='factionSelect' value={selectedFaction} onChange={handleChange}>
 				<option value='' disabled hidden defaultValue>
 					Please Choose
 				</option>
 				{factionOptions.map((option) => (
-					<option key={option} value={option}>
+					<option key={option} >
 						{option}
 					</option>
 				))}

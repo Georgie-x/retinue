@@ -1,7 +1,7 @@
 
 function Header() {
     return(
-      <h1>CHOOSE YOUR DUDES</h1>
+      <header><h1>CHOOSE YOUR DUDES</h1></header>
     )
   }
   
