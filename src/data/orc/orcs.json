@@ -1,0 +1,913 @@
+[
+  {
+    "type": "commander",
+    "id": "T3VC",
+    "name": "Tier III Veteran Commander",
+    "cost": 44,
+    "move": 6,
+    "att": "3+",
+    "def": "7+",
+    "charm": "2+",
+    "actions": "3"
+  },
+  {
+    "type": "commander",
+    "id": "T3RC",
+    "name": "Tier III Regular Commander",
+    "cost": 44,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "3+",
+    "actions": "3"
+  },
+  {
+    "type": "commander",
+    "id": "T2VC",
+    "name": "Tier II Veteran Commander",
+    "cost": 44,
+    "move": 6,
+    "att": "3+",
+    "def": "7+",
+    "charm": "2+",
+    "actions": "2"
+  },
+  {
+    "type": "commander",
+    "id": "T2RC",
+    "name": "Tier II Regular Commander",
+    "cost": 44,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "3+",
+    "actions": "2"
+  },
+  {
+    "type": "mage",
+    "id": "T3VM",
+    "name": "Tier III Veteran Mage",
+    "cost": 41,
+    "move": 6,
+    "att": "3+",
+    "def": "7+",
+    "charm": "2+",
+    "actions": "3"
+  },
+  {
+    "type": "mage",
+    "id": "T3RM",
+    "name": "Tier III Regular Mage",
+    "cost": 38,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "3+",
+    "actions": "3"
+  },
+  {
+    "type": "mage",
+    "id": "T2VM",
+    "name": "Tier II Veteran Mage",
+    "cost": 31,
+    "move": 6,
+    "att": "3+",
+    "def": "7+",
+    "charm": "2+",
+    "actions": "2"
+  },
+  {
+    "type": "mage",
+    "id": "T2RM",
+    "name": "Tier II Regular Mage",
+    "cost": 28,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "3+",
+    "actions": "2"
+  },
+  {
+    "type": "shaman_bodyguard",
+    "id": "VSB",
+    "name": "Veteran Shaman Bodyguard",
+    "cost": 21,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "3+",
+    "actions": "1",
+    "abilities": [
+      "Magical Resistance"
+    ],
+    "weapons": [
+      "Polearm",
+      "Spear",
+      "Sword",
+      "Two Handed Weapon"
+    ],
+    "armour": [
+      "none",
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield",
+      "Large Shield"
+    ],
+    "mount": [
+      "Wolf",
+      "Horse"
+    ]
+  },
+  {
+    "type": "shaman_bodyguard",
+    "id": "RSB",
+    "name": "Regular Shaman Bodyguard",
+    "cost": 18,
+    "move": 6,
+    "att": "5+",
+    "def": "7+",
+    "charm": "4+",
+    "actions": "1",
+    "abilities": [
+      "Magical Resistance"
+    ],
+    "weapons": [
+      "Polearm",
+      "Spear",
+      "Sword",
+      "Two Handed Weapon"
+    ],
+    "armour": [
+      "none",
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield",
+      "Large Shield"
+    ],
+    "mount": [
+      "Wolf",
+      "Horse"
+    ]
+  },
+  {
+    "type": "shaman_bodyguard",
+    "id": "ISB",
+    "name": "Irregular Shaman Bodyguard",
+    "cost": 15,
+    "move": 6,
+    "att": "3+",
+    "def": "6+",
+    "charm": "5+",
+    "actions": "1",
+    "abilities": [
+      "Magical Resistance"
+    ],
+    "weapons": [
+      "Polearm",
+      "Spear",
+      "Sword",
+      "Two Handed Weapon"
+    ],
+    "armour": [
+      "none",
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ],
+    "mount": [
+      "Wolf",
+      "Horse"
+    ]
+  },
+  {
+    "type": "shaman_bodyguard",
+    "id": "GSB",
+    "name": "Green Shaman Bodyguard",
+    "cost": 12,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "6+",
+    "actions": "1",
+    "abilities": [
+      "Magical Resistance"
+    ],
+    "weapons": [
+      "Polearm",
+      "Spear",
+      "Sword",
+      "Two Handed Weapon"
+    ],
+    "armour": [
+      "none",
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ],
+    "mount": [
+      "Wolf",
+      "Horse"
+    ]
+  },
+  {
+    "type": "linebreaker_bezerker",
+    "id": "VLB",
+    "name": "Veteran Linebreaker Bezerker",
+    "cost": 20,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "3+",
+    "actions": "1",
+    "abilities": [
+      "Bezerker",
+      "Bloodlust"
+    ],
+    "weapons": [
+      "Two Handed Weapon",
+      "Mace",
+      "Sword"
+    ],
+    "armour": [
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Medium Shield",
+      "Large Shield"
+    ]
+  },
+  {
+    "type": "linebreaker_bezerker",
+    "id": "RLB",
+    "name": "Regular Linebreaker Bezerker",
+    "cost": 17,
+    "move": 6,
+    "att": "5+",
+    "def": "7+",
+    "charm": "4+",
+    "actions": "1",
+    "abilities": [
+      "Bezerker",
+      "Bloodlust"
+    ],
+    "weapons": [
+      "Two Handed Weapon",
+      "Mace",
+      "Sword"
+    ],
+    "armour": [
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Medium Shield",
+      "Large Shield"
+    ]
+  },
+  {
+    "type": "linebreaker_bezerker",
+    "id": "ILB",
+    "name": "Irregular Linebreaker Bezerker",
+    "cost": 14,
+    "move": 6,
+    "att": "3+",
+    "def": "6+",
+    "charm": "5+",
+    "actions": "1",
+    "abilities": [
+      "Bezerker",
+      "Bloodlust"
+    ],
+    "weapons": [
+      "Two Handed Weapon",
+      "Mace",
+      "Sword"
+    ],
+    "armour": [
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Medium Shield",
+      "Large Shield"
+    ]
+  },
+  {
+    "type": "orc_armoured_warrior",
+    "id": "VOAW",
+    "name": "Veteran Orc Warrior",
+    "cost": 20,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "3+",
+    "actions": "1",
+    "abilites": [
+      "Powerful Charge"
+    ],
+    "weapons": [
+      "Two Handed Weapon",
+      "Mace",
+      "Sword",
+      "Spear",
+      "Hand Weapon"
+    ],
+    "armour": [
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield",
+      "Large Shield"
+    ]
+  },
+  {
+    "type": "orc_armoured_warrior",
+    "id": "ROAW",
+    "name": "Regular Orc Armoured Warrior",
+    "cost": 17,
+    "move": 6,
+    "att": "5+",
+    "def": "7+",
+    "charm": "4+",
+    "actions": "1",
+    "abilites": [
+      "Powerful Charge"
+    ],
+    "weapons": [
+      "Two Handed Weapon",
+      "Mace",
+      "Sword",
+      "Spear",
+      "Hand Weapon"
+    ],
+    "armour": [
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield",
+      "Large Shield"
+    ]
+  },
+  {
+    "type": "orc_armoured_warrior",
+    "id": "IOAW",
+    "name": "Irregular Orc Armoured Warrior",
+    "cost": 13,
+    "move": 6,
+    "att": "3+",
+    "def": "6+",
+    "charm": "5+",
+    "actions": "1",
+    "weapons": [
+      "Spear",
+      "Hand Weapon"
+    ],
+    "armour": [
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ]
+  },
+  {
+    "type": "orc_armoured_warrior",
+    "id": "GOAW",
+    "name": "Green Orc Armoured Warrior",
+    "cost": 10,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "6+",
+    "actions": "1",
+    "weapons": [
+      "Spear",
+      "Hand Weapon"
+    ],
+    "armour": [
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ]
+  },
+  {
+    "type": "orc_mounted_armoured_warrior",
+    "id": "VMOAW",
+    "name": "Veteran Mounted Orc Armoured Warrior",
+    "cost": 20,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "3+",
+    "actions": "1",
+    "abilites": [
+      "Powerful Charge"
+    ],
+    "weapons": [
+      "Mace",
+      "Sword",
+      "Spear",
+      "Hand Weapon"
+    ],
+    "armour": [
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield",
+      "Large Shield"
+    ],
+    "mount": [
+      "Armoured Wolf",
+      "Horse"
+    ]
+  },
+  {
+    "type": "orc_mounted_armoured_warrior",
+    "id": "RMOAW",
+    "name": "Regular Mounted Orc Armoured Warrior",
+    "cost": 17,
+    "move": 6,
+    "att": "5+",
+    "def": "7+",
+    "charm": "4+",
+    "actions": "1",
+    "abilites": [
+      "Powerful Charge"
+    ],
+    "weapons": [
+      "Mace",
+      "Sword",
+      "Spear",
+      "Hand Weapon"
+    ],
+    "armour": [
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield",
+      "Large Shield"
+    ],
+    "mount": [
+      "Armoured Wolf",
+      "Horse"
+    ]
+  },
+  {
+    "type": "orc_mounted_armoured_warrior",
+    "id": "IMOAW",
+    "name": "Irregular Mounted Orc Armoured Warrior",
+    "cost": 13,
+    "move": 6,
+    "att": "3+",
+    "def": "6+",
+    "charm": "5+",
+    "actions": "1",
+    "weapons": [
+      "Spear",
+      "Hand Weapon"
+    ],
+    "armour": [
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ],
+    "mount": [
+      "Armoured Wolf",
+      "Horse"
+    ]
+  },
+  {
+    "type": "orc_mounted_armoured_warrior",
+    "id": "GMOAW",
+    "name": "Green Mounted Orc Armoured Warrior",
+    "cost": 10,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "6+",
+    "actions": "1",
+    "weapons": [
+      "Spear",
+      "Hand Weapon"
+    ],
+    "armour": [
+      "Light Armour",
+      "Heavy Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ],
+    "mount": [
+      "Armoured Wolf",
+      "Horse"
+    ]
+  },
+  {
+    "type": "orc_warrior",
+    "id": "VOW",
+    "name": "Veteran Orc Warrior",
+    "cost": 19,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "3+",
+    "actions": "1",
+    "weapons": [
+      "Spear",
+      "Hand Weapon"
+    ],
+    "armour": [
+      "none",
+      "Light Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ]
+  },
+  {
+    "type": "orc_warrior",
+    "id": "ROW",
+    "name": "Regular Orc Warrior",
+    "cost": 16,
+    "move": 6,
+    "att": "5+",
+    "def": "7+",
+    "charm": "4+",
+    "actions": "1",
+    "weapons": [
+      "Spear",
+      "Hand Weapon"
+    ],
+    "armour": [
+      "none",
+      "Light Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ]
+  },
+  {
+    "type": "orc_warrior",
+    "id": "IOW",
+    "name": "Irregular Orc Warrior",
+    "cost": 13,
+    "move": 6,
+    "att": "3+",
+    "def": "6+",
+    "charm": "5+",
+    "actions": "1",
+    "weapons": [
+      "Spear",
+      "Hand Weapon"
+    ],
+    "armour": [
+      "none",
+      "Light Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ]
+  },
+  {
+    "type": "orc_warrior",
+    "id": "GOW",
+    "name": "Green Orc Warrior",
+    "cost": 10,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "6+",
+    "actions": "1",
+    "weapons": [
+      "Spear",
+      "Hand Weapon"
+    ],
+    "armour": [
+      "none",
+      "Light Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ]
+  },
+  {
+    "type": "mounted_orc_scout",
+    "id": "VMOS",
+    "name": "Veteran Mounted Orc Scout",
+    "cost": 20,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "3+",
+    "actions": "1",
+    "abilities": [
+      "nimble"
+    ],
+    "weapons": [
+      "Spear",
+      "Hand Weapon",
+      "Bow"
+    ],
+    "armour": [
+      "none",
+      "Light Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ],
+    "mount": [
+      "wolf",
+      "horse"
+    ]
+  },
+  {
+    "type": "mounted_orc_scout",
+    "id": "RMOS",
+    "name": "Regular Mounted Orc Scout",
+    "cost": 17,
+    "move": 6,
+    "att": "5+",
+    "def": "7+",
+    "charm": "4+",
+    "actions": "1",
+    "abilities": [
+      "nimble"
+    ],
+    "weapons": [
+      "Spear",
+      "Hand Weapon",
+      "Bow"
+    ],
+    "armour": [
+      "none",
+      "Light Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ],
+    "mount": [
+      "wolf",
+      "horse"
+    ]
+  },
+  {
+    "type": "mounted_orc_scout",
+    "id": "IMOS",
+    "name": "Irregular Mounted Orc Scout",
+    "cost": 14,
+    "move": 6,
+    "att": "3+",
+    "def": "6+",
+    "charm": "5+",
+    "actions": "1",
+    "abilities": [
+      "nimble"
+    ],
+    "weapons": [
+      "Spear",
+      "Hand Weapon",
+      "Bow"
+    ],
+    "armour": [
+      "none",
+      "Light Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ],
+    "mount": [
+      "wolf",
+      "horse"
+    ]
+  },
+  {
+    "type": "mounted_orc_scout",
+    "id": "GMOS",
+    "name": "Green Mounted Orc Scout",
+    "cost": 11,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "6+",
+    "actions": "1",
+    "abilities": [
+      "nimble"
+    ],
+    "weapons": [
+      "Spear",
+      "Hand Weapon",
+      "Bow"
+    ],
+    "armour": [
+      "none",
+      "Light Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ],
+    "mount": [
+      "wolf",
+      "horse"
+    ]
+  },
+  {
+    "type": "orc_ranged_warrior",
+    "id": "VROW",
+    "name": "Veteran Ranged Orc Warrior",
+    "cost": 19,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "3+",
+    "actions": "1",
+    "weapons": [
+      "Bow",
+      "Sling"
+    ],
+    "armour": [
+      "none",
+      "Light Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ]
+  },
+  {
+    "type": "orc_ranged_warrior",
+    "id": "RROW",
+    "name": "Regular Ranged Orc Warrior",
+    "cost": 16,
+    "move": 6,
+    "att": "5+",
+    "def": "7+",
+    "charm": "4+",
+    "actions": "1",
+    "weapons": [
+      "Bow",
+      "Sling"
+    ],
+    "armour": [
+      "none",
+      "Light Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ]
+  },
+  {
+    "type": "orc_ranged_warrior",
+    "id": "IROW",
+    "name": "Irregular Ranged Orc Warrior",
+    "cost": 13,
+    "move": 6,
+    "att": "3+",
+    "def": "6+",
+    "charm": "5+",
+    "actions": "1",
+    "weapons": [
+      "Bow",
+      "Sling"
+    ],
+    "armour": [
+      "none",
+      "Light Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ]
+  },
+  {
+    "type": "orc_ranged_warrior",
+    "id": "GROW",
+    "name": "Green Ranged Orc Warrior",
+    "cost": 10,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "6+",
+    "actions": "1",
+    "weapons": [
+      "Bow",
+      "Sling"
+    ],
+    "armour": [
+      "none",
+      "Light Armour"
+    ],
+    "shield": [
+      "none",
+      "Small Shield",
+      "Medium Shield"
+    ]
+  },
+  {
+    "type": "orc_large_creature",
+    "id": "VLC",
+    "name": "Veteran Large Creature",
+    "cost": 65,
+    "move": 6,
+    "att": "3+",
+    "def": "7+",
+    "charm": "2+",
+    "actions": "1"
+  },
+  {
+    "type": "orc_large_creature",
+    "id": "RLC",
+    "name": "Regular Large Creature",
+    "cost": 62,
+    "move": 6,
+    "att": "4+",
+    "def": "7+",
+    "charm": "3+",
+    "actions": "1"
+  },
+  {
+    "type": "orc_large_creature",
+    "id": "ILC",
+    "name": "Irregular Large Creature",
+    "cost": 59,
+    "move": 6,
+    "att": "5+",
+    "def": "6+",
+    "charm": "4+",
+    "actions": "1"
+  },
+  {
+    "type": "orc_large_creature",
+    "id": "T1GW",
+    "name": "Green Large Creature",
+    "cost": 56,
+    "move": 6,
+    "att": "6+",
+    "def": "7+",
+    "charm": "5+",
+    "actions": "1"
+  }
+]

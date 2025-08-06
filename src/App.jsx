@@ -1,5 +1,5 @@
-import { Faction, TotalPoints, Header } from "./components"
-import ContentControl from "./components/content-control"
+import { ContentControl, Header } from "./components/index.jsx"
+
 
 function App() {
 	return (
