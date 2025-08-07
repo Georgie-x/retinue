@@ -1,0 +1,177 @@
+[
+	{
+		"type": "commander",
+		"id": "T3VC",
+		"name": "Tier III Veteran Commander",
+		"cost": 44,
+		"move": 6,
+		"att": "3+",
+		"def": "7+",
+		"charm": "2+",
+		"actions": "3"
+	},
+	{
+		"type": "commander",
+		"id": "T3RC",
+		"name": "Tier III Regular Commander",
+		"cost": 44,
+		"move": 6,
+		"att": "4+",
+		"def": "7+",
+		"charm": "3+",
+		"actions": "3"
+	},
+	{
+		"type": "commander",
+		"id": "T2VC",
+		"name": "Tier II Veteran Commander",
+		"cost": 44,
+		"move": 6,
+		"att": "3+",
+		"def": "7+",
+		"charm": "2+",
+		"actions": "2"
+	},
+	{
+		"type": "commander",
+		"id": "T2RC",
+		"name": "Tier II Regular Commander",
+		"cost": 44,
+		"move": 6,
+		"att": "4+",
+		"def": "7+",
+		"charm": "3+",
+		"actions": "2"
+	},
+	{
+		"type": "mage",
+		"id": "T3VM",
+		"name": "Tier III Veteran Mage",
+		"cost": 41,
+		"move": 6,
+		"att": "3+",
+		"def": "7+",
+		"charm": "2+",
+		"actions": "3"
+	},
+	{
+		"type": "mage",
+		"id": "T3RM",
+		"name": "Tier III Regular Mage",
+		"cost": 38,
+		"move": 6,
+		"att": "4+",
+		"def": "7+",
+		"charm": "3+",
+		"actions": "3"
+	},
+	{
+		"type": "mage",
+		"id": "T2VM",
+		"name": "Tier II Veteran Mage",
+		"cost": 31,
+		"move": 6,
+		"att": "3+",
+		"def": "7+",
+		"charm": "2+",
+		"actions": "2"
+	},
+	{
+		"type": "mage",
+		"id": "T2RM",
+		"name": "Tier II Regular Mage",
+		"cost": 28,
+		"move": 6,
+		"att": "4+",
+		"def": "7+",
+		"charm": "3+",
+		"actions": "2"
+	},
+	{
+		"type": "warrior",
+		"id": "VW",
+		"name": "Tier I Veteran Warrior",
+		"cost": 21,
+		"move": 6,
+		"att": "4+",
+		"def": "7+",
+		"charm": "3+",
+		"actions": "1"
+	},
+	{
+		"type": "warrior",
+		"id": "RW",
+		"name": "Tier I Regular Warrior",
+		"cost": 18,
+		"move": 6,
+		"att": "5+",
+		"def": "7+",
+		"charm": "4+",
+		"actions": "1"
+	},
+	{
+		"type": "warrior",
+		"id": "IW",
+		"name": "Tier I Irregular Warrior",
+		"cost": 15,
+		"move": 6,
+		"att": "3+",
+		"def": "6+",
+		"charm": "5+",
+		"actions": "1"
+	},
+	{
+		"type": "warrior",
+		"id": "GW",
+		"name": "Tier I Green Warrior",
+		"cost": 12,
+		"move": 6,
+		"att": "4+",
+		"def": "7+",
+		"charm": "6+",
+		"actions": "1"
+	},{
+		"type": "large_creature",
+		"id": "VLC",
+		"name": "Veteran Large Creature",
+		"cost": 65,
+		"move": 6,
+		"att": "3+",
+		"def": "7+",
+		"charm": "2+",
+		"actions": "1"
+	},
+	{
+		"type": "large_creature",
+		"id": "RLC",
+		"name": "Regular Large Creature",
+		"cost": 62,
+		"move": 6,
+		"att": "4+",
+		"def": "7+",
+		"charm": "3+",
+		"actions": "1"
+	},
+	{
+		"type": "large_creature",
+		"id": "ILC",
+		"name": "Irregular Large Creature",
+		"cost": 59,
+		"move": 6,
+		"att": "5+",
+		"def": "6+",
+		"charm": "4+",
+		"actions": "1"
+	},
+	{
+		"type": "large_creature",
+		"id": "GLC",
+		"name": "Green Large Creature",
+		"cost": 56,
+		"move": 6,
+		"att": "6+",
+		"def": "7+",
+		"charm": "5+",
+		"actions": "1"
+	}
+]

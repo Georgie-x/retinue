@@ -1,0 +1,139 @@
+[
+	{
+		"type": "commander",
+		"id": "T3C",
+		"name": "Tier III Commander",
+		"experience": ["Veteran", "Regular"],
+		"abilities": ["Commander", "Savagery", "Robust"],
+		"weapons": ["Two Handed Weapon", "Mace", "Sword"],
+		"armour": ["Light Armour", "Heavy Armour"],
+		"shield": ["Medium Shield", "Large Shield"],
+		"mount": ["Wolf", "Armoured Wolf", "Horse"],
+		"upgrades": ["Banner", "Musician"]
+	},
+	{
+		"type": "commander",
+		"id": "T2C",
+		"name": "Tier II Commander",
+		"experience": ["Veteran", "Regular"],
+		"abilities": ["Commander", "Savagery", "Resilient"],
+		"weapons": ["Two Handed Weapon", "Mace", "Sword"],
+		"armour": ["Light Armour", "Heavy Armour"],
+		"shield": ["Medium Shield", "Large Shield"],
+		"mount": ["Wolf", "Armoured Wolf", "Horse"],
+		"upgrades": ["Pennant", "Musician"]
+	},
+	{
+		"type": "mage",
+		"id": "T23M",
+		"name": "Tier II and III Mage",
+		"experience": ["Veteran", "Regular"],
+		"abilities": ["Commander", "Mage"],
+		"weapons": ["Skull Staff"],
+		"armour": ["Light Armour"],
+		"mount": ["Wolf", "Armoured Wolf", "Horse"],
+		"spells": ["Battle Magic", "Wild Magic"]
+	},
+	{
+		"type": "shaman_bodyguard",
+		"id": "ESB",
+		"name": "Experienced Shaman Bodyguard",
+		"experience": ["Veteran", "Regular"],
+		"abilities": ["Magical Resistance"],
+		"weapons": ["Polearm", "Spear", "Sword", "Two Handed Weapon"],
+		"armour": ["none", "Light Armour", "Heavy Armour"],
+		"shield": ["none", "Small Shield", "Medium Shield", "Large Shield"],
+		"mount": ["Wolf", "Horse"]
+	},
+	{
+		"type": "shaman_bodyguard",
+		"id": "SB",
+		"name": "Shaman Bodyguard",
+		"experience": ["Irregular", "Green"],
+		"abilities": ["Magical Resistance"],
+		"weapons": ["Polearm", "Spear", "Sword", "Two Handed Weapon"],
+		"armour": ["none", "Light Armour", "Heavy Armour"],
+		"shield": ["none", "Small Shield", "Medium Shield"],
+		"mount": ["Wolf", "Horse"]
+	},
+	{
+		"type": "linebreaker_bezerker",
+		"id": "LB",
+		"name": "Linebreaker Bezerker",
+		"abilities": ["Bezerker", "Bloodlust"],
+		"weapons": ["Two Handed Weapon", "Mace", "Sword"],
+		"armour": ["Light Armour", "Heavy Armour"],
+		"shield": ["none", "Medium Shield", "Large Shield"]
+	},
+	{
+		"type": "orc_armoured_warrior",
+		"id": "EOAW",
+		"name": "Experienced Orc Armoured Warrior",
+		"experience": ["Veteran", "Regular"],
+		"abilites": ["Powerful Charge"],
+		"weapons": ["Two Handed Weapon", "Mace", "Sword", "Spear", "Hand Weapon"],
+		"armour": ["Light Armour", "Heavy Armour"],
+		"shield": ["none", "Small Shield", "Medium Shield", "Large Shield"]
+	},
+	{
+		"type": "orc_armoured_warrior",
+		"id": "OAW",
+		"name": "Orc Armoured Warrior",
+		"experience": ["Irregular", "Green"],
+		"weapons": ["Spear", "Hand Weapon"],
+		"armour": ["Light Armour", "Heavy Armour"],
+		"shield": ["none", "Small Shield", "Medium Shield"]
+	},
+	{
+		"type": "orc_mounted_armoured_warrior",
+		"id": "EOAW",
+		"name": "Experienced Mounted Orc Armoured Warrior",
+		"abilites": ["Powerful Charge"],
+		"weapons": ["Mace", "Sword", "Spear", "Hand Weapon"],
+		"armour": ["Light Armour", "Heavy Armour"],
+		"shield": ["none", "Small Shield", "Medium Shield", "Large Shield"],
+		"mount": ["Armoured Wolf", "Horse"]
+	},
+	{
+		"type": "orc_mounted_armoured_warrior",
+		"id": "MOAW",
+		"name": "Regular Mounted Orc Armoured Warrior",
+		"weapons": ["Spear", "Hand Weapon"],
+		"armour": ["Light Armour", "Heavy Armour"],
+		"shield": ["none", "Small Shield", "Medium Shield"],
+		"mount": ["Armoured Wolf", "Horse"]
+	},
+	{
+		"type": "orc_warrior",
+		"id": "OW",
+		"name": "Orc Warrior",
+		"weapons": ["Spear", "Hand Weapon"],
+		"armour": ["none", "Light Armour"],
+		"shield": ["none", "Small Shield", "Medium Shield"]
+	},
+	{
+		"type": "mounted_orc_scout",
+		"id": "MOS",
+		"name": "Mounted Orc Scout",
+		"abilities": ["nimble"],
+		"weapons": ["Spear", "Hand Weapon", "Bow"],
+		"armour": ["none", "Light Armour"],
+		"shield": ["none", "Small Shield", "Medium Shield"],
+		"mount": ["wolf", "horse"]
+	},
+	{
+		"type": "orc_ranged_warrior",
+		"id": "ORW",
+		"name": "Orc Ranged Warrior",
+		"weapons": ["Bow", "Sling"],
+		"armour": ["none", "Light Armour"],
+		"shield": ["none", "Small Shield", "Medium Shield"]
+	},
+	{
+		"type": "large_creature",
+		"id": "LC",
+		"name": "Large Creature",
+		"weapons": ["Giant Club"],
+		"armour": ["Light Armour"]
+	}
+]
